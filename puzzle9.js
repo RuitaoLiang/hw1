@@ -1,6 +1,6 @@
 function drawing(direction,n) {
 var count=0
-while(count<7) {
+while(count<n) {
   setColor("blue")
   direction
   count=count+1
