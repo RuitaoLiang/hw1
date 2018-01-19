@@ -12,3 +12,5 @@ right
 right
 up
 up
+right
+right
