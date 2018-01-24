@@ -1,18 +1,18 @@
-function upandDown {
- While(getColor!="red") {
-  down
+function upandDown() {
+ while (getColor()!="red"){
+  down();
  }
- right
- right
- while(getColor!="red") {
-  up
+ right();
+ right();
+ while(getColor()!="red") {
+  up();
  }
- right
- right
+ right();
+ right();
 }
-upandDown
-upandDown
-While(getColor!="red") {
-  down
+upandDown();
+upandDown();
+while(getColor()!="red") {
+  down();
 }
-right
+right();
