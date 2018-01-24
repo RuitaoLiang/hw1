@@ -2,7 +2,7 @@ function drawing(direction,n) {
 var count=0
 while(count<n) {
   setColor("blue")
-  direction
+  direction();
   count=count+1
  }
 }
