@@ -1,0 +1,50 @@
+function drawing(direction,n) {
+var count=0
+while(count<n) {
+  setColor("blue")
+  direction();
+  count=count+1
+ }
+}
+drawing(down,20)
+right();
+right();
+right();
+up();
+drawing(up,21)
+right();
+right();
+right();
+drawing(down,20)
+right();
+right();
+right();
+up();
+drawing(up,21)
+right();
+right();
+right();
+drawing(down,20)
+right();
+right();
+right();
+up();
+drawing(up,21)
+right();
+right();
+right();
+drawing(down,20)
+right();
+right();
+right();
+up();
+drawing(up,21)
+right();
+right();
+right();
+drawing(down,20)
+right();
+right();
+right();
+up();
+drawing(up,21)
