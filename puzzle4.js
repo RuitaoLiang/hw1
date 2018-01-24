@@ -1,17 +1,17 @@
-down
-down
-down
-down
-right
-var firstColorSeen = getColor
-down
+down();
+down();
+down();
+down();
+right();
+var firstColorSeen = getColor()
+down();
 setColor(firstColorSeen)
-right
-right
-right
-up
-var secondColorSeen = getColor
-down
+right();
+right();
+right();
+up();
+var secondColorSeen = getColor()
+down();
 setColor(secondColorSeen)
-right
-right
+right();
+right();
