@@ -1,25 +1,19 @@
-right
-var firstSeenColor = getColor
-if(firstSeenColor == "red") {
-  up
-  up
-  up
-} 
-if(firstSeenColor == "blue"){
-  down
-  down
-  down
-}
-var secondSeenColor = getColor
-if(firstSeenColor == "red", secondSeenColor= "red") {
-  left
-  up
-}
-if(firstSeenColor= "red", secondSeenColor== "blue"){
- right
- up
-}
-if(firstSeenColor= "blue", secondSeenColor== "red"){
- left
- down
+right();
+if (getColor() == "blue"){
+  down();
+  down();
+  down();
+  left();
+  down();
+} else if (getColor() == "red"){
+  up();
+  up();
+  up();
+  if (getColor() == "blue"){
+  right();
+  up();
+  } else if (getColor() == "red"){
+  left(); 
+  up();
+  }
 }
